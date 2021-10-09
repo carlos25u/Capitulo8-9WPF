@@ -1,0 +1,24 @@
+﻿<Window x:Class="Capitulo8_9WPF.Capitulo_8.Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo8_9WPF.Capitulo_8"
+        mc:Ignorable="d"
+        Title="Ejercicio5" Height="450" Width="500">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="Cadena 1"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="cadena1" Height="18" Width="300"></TextBox>
+            </StackPanel>
+            <Label Content="Cadena 2" Margin="0,5,0,0"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="cadena2" Height="18" Width="300"></TextBox>
+                <Button x:Name="Calcular" Content=" Calcula " Margin="10,0,0,0" Click="Calcular_Click"></Button>
+            </StackPanel>
+            
+            <TextBox x:Name="resultado" Margin="0,10,0,0"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
